@@ -1,0 +1,11 @@
+{
+  "name": "NodejsMicro",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node Main.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1"
+  }
+}
