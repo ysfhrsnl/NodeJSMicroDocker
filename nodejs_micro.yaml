@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nodejsmicro
-        image: iad.ocir.io/<my_cloud_tenancy_name>/<my_repo_name>/nodejsmicro:latest
+        image: iad.ocir.io/<my_cloud_tenancy_name>/<my_repo_name>/<my_container_name>:latest
         ports:
         - containerPort: 80 #Endpoint is at port 80 in the container
 ---
