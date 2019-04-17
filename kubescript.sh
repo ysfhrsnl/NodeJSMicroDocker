@@ -1,5 +1,5 @@
 mkdir -p $HOME/.kube
-oci ce cluster create-kubeconfig --cluster-id <my_OKE_cluster_ocid> --file $HOME/.kube/config --region us-ashburn-1
+cat kubeconfig > $HOME/.kube/config
 export KUBECONFIG=$HOME/.kube/config
 mkdir ctd
 cp $KUBECONFIG ctd/kubeconfig
